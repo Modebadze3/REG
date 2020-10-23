@@ -17,6 +17,11 @@
 	margin-right: 40px;
 }
 /*section1*/
+.form{
+	width: 500px;
+	display: flex;
+	justify-content: center;
+}
 .image1 img{
 	width: 1000px;
 }
@@ -25,3 +30,129 @@
 	justify-content: center;
 }
 /*section2*/
+.fname{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin-left: 280px;
+}
+.fname label {
+	font-size: 21px;
+	margin-left: 20px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.mail{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin-left: 280px;
+}
+.mail label {
+	font-size: 21px;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.sub{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin-left: 280px;
+}
+.sub label {
+	font-size: 21px;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.textarea {
+	display: flex;
+	flex-direction: column;
+	margin-left: 280px;
+}
+.textarea label {
+	font-size: 21px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 20px;
+}	
+.textarea textarea {
+	resize: none;
+	height: 100px;
+	width: 500px;
+	border: 1px solid darkgrey;
+}
+
+input {
+	border: 1px solid darkgrey;
+	height: 50px;
+}
+input:focus {
+	outline: none;
+}
+.but {
+	margin-left: 280px;
+}
+.but button {
+	width: 130px;
+	height: 50px;
+	border:none;
+	background-color: black;
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 150px;
+	font-size: 20px;
+}
+/*footer*/
+footer{
+	background-color: black;
+	height: 180px;
+}
+.wraper{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer1{
+	justify-content: space-around;
+	width: 122px;
+	margin-top: 40px;
+}
+.footer2 {
+	display: flex;
+	flex-direction: column;	
+	margin-top: 40px;
+}
+.white{
+	color: #fff;
+	margin-top: 8px;
+	font-size: 15px;
+}
+.footer2 h3{
+	color: #fff;
+	font-size: 20px;
+	padding-left: 15px;
+}
+.footer3{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+.footer3 h3 {
+	color: #fff;
+	font-size: 20px;
+}
+.footer3 a{
+	color: #fff;
+	font-size: 15px;
+	margin-top: 8px;
+}
+.footer4{
+	display: flex;
+	margin-top: 40px;
+}
+.fb{
+	margin-right: 35px;
+}
+
